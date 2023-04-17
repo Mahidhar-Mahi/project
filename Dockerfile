@@ -1,5 +1,5 @@
 FROM python:3.6
-MAINTAINER Mahidhar-Mahi "mahidharatukuri3@gmail.com" # Change the name and email address
+MAINTAINER mahidhar123 "amahidharnaidu1@gmail.com" # Change the name and email address
 COPY app.py test.py /app/
 WORKDIR /app
 RUN pip install flask pytest flake8 # This downloads all the dependencies
